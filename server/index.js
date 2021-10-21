@@ -9,4 +9,4 @@ app.get('/', function (req, res) {
 
 const port = process.env.PORT || 4567
 
-app.listen(4567, => console.log(`Server is running on ${port}`))
+app.listen(4567, console.log(`Server is running on ${port}`))
